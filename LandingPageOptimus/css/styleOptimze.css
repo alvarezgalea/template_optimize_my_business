@@ -1,0 +1,92 @@
+/* Barra de Menu */
+
+.navbar{
+	background-color: #f5f6f7;
+
+}
+
+.containerNav{
+	background-color: #f5f6f7;
+	width: auto;
+	padding: 0;
+}
+
+.navbar-collapse{
+	align-items: center;
+	justify-content: space-between;
+}
+
+
+/* estilos generales */
+
+
+.hero{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+
+.hero-imagen-desarrollador{
+    filter: brightness(60%);
+    z-index: -1;
+}
+
+}
+
+
+h1{
+	position: absolute;
+	font-size: 2.5rem;
+	font-family: 'fonts/samsungsharpsans-bold', cursive;
+}
+
+
+
+
+/* section hero */
+
+.hero{
+	min-height: 450px;
+	text-align: center;
+}
+
+.hero-principal h1{
+	font-size: 2.5 rem;
+	color: #e6ee00;
+}
+
+.hero-principal h2{
+	padding: 4 rem;
+	font-size: 2.5 rem;
+	color: white;
+}
+
+.container-fluid-servicios{
+	padding: 300px 0px 0px 0px;
+}
+
+.container-fluid-experiencias{
+
+}
+
+.tituloExperiencia{
+	font-size: 2.5rem;
+	color: #C17BEC;
+}
+
+
+.container-fluid-footer{
+	background-color: black;
+	color: white;
+}
+
+
+/* Adaptable - Responsivo */
+
+@media screen and (max-width: 767px){
+	.navbar-brand{
+		display: none;
+	}
+}
